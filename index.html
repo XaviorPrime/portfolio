@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Azim | Software Engineering Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Top Gold Scroll Progress Line -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Sleek Adaptive Navbar -->
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-dot"></span>
+          <span>azim.dev</span>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary Navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="academics.html">Academics</a>
+          <a href="projects.html">Projects</a>
+          <a href="project-ecotech.html">Case Study</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <button class="cmd-trigger" id="openCmd" type="button">
+          <span>Quick Jump</span>
+          <span>Ctrl K</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div data-reveal>
+            <div class="kicker">Software Engineering · UTeM</div>
+            <h1 class="hero-title">
+              Muhammad Azim.<br />
+              <span>Software &amp; Systems</span> Developer.
+            </h1>
+            <p class="hero-desc">
+              B.Comp.Sc. Software Engineering student at Universiti Teknikal Malaysia Melaka with a Diploma in IT from POLIMAS. Focused on full-stack web apps, relational databases, and practical C++ systems.
+            </p>
+            <div class="btn-row">
+              <a href="projects.html" class="btn btn-gold">View Projects</a>
+              <a href="academics.html" class="btn btn-ghost">Academic History</a>
+            </div>
+          </div>
+
+          <!-- Sleek Glass Spec Container -->
+          <aside class="sleek-card" data-reveal data-delay="1">
+            <div class="spec-header">
+              <span>DEVELOPER PROFILE</span>
+              <span style="color: var(--gold);">2026</span>
+            </div>
+
+            <div class="spec-item">
+              <span class="spec-label">UNIVERSITY</span>
+              <span class="spec-value">UTeM (FTMK)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">PREVIOUS</span>
+              <span class="spec-value">POLIMAS · Dip. IT</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">INTERNSHIP</span>
+              <span class="spec-value">Malaysian NPK Fertilizer</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">CORE STACK</span>
+              <span class="spec-value">Python, Flask, MySQL, C++</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">LOCATION</span>
+              <span class="spec-value">Melaka / Kedah</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Selected Work Section -->
+      <section class="section">
+        <div class="container">
+          <div class="section-top" data-reveal>
+            <div>
+              <div class="kicker" style="margin-bottom: 8px;">Selected Work</div>
+              <h2 class="section-title">Featured Engineering Builds</h2>
+            </div>
+            <a href="projects.html" class="btn btn-ghost">All Projects →</a>
+          </div>
+
+          <div class="work-stack">
+            <!-- Project 1 -->
+            <article class="sleek-card work-card" data-reveal>
+              <div>
+                <div class="work-meta">01 · PYTHON FLASK &amp; MYSQL</div>
+                <h3>EcoTech Asset Lifecycle &amp; Depreciation System</h3>
+                <p>
+                  Developed the asset evaluation module for UTeM Workshop II—tracking hardware depreciation curves, flagging repair-or-replace thresholds, and logging reusable parts.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">Python Flask</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Jinja2</span>
+                  <a href="project-ecotech.html" class="tag" style="border-color: var(--gold-border); color: var(--gold-soft);">
+                    Read Case Study →
+                  </a>
+                </div>
+              </div>
+
+              <div class="mini-window">
+                <div class="mini-row">
+                  <span style="color: var(--text-primary);">ECO-LAP-001</span>
+                  <span class="badge-gold">REPAIRABLE</span>
+                </div>
+                <div class="mini-row">
+                  <span style="color: var(--text-primary);">ECO-LAP-002</span>
+                  <span class="badge-gold">DEPRECIATING</span>
+                </div>
+                <div class="mini-row">
+                  <span style="color: var(--text-primary);">ECO-SRV-004</span>
+                  <span class="badge-gold">SALVAGE</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="sleek-card work-card" data-reveal data-delay="1">
+              <div>
+                <div class="work-meta">02 · C++ &amp; RELATIONAL SQL</div>
+                <h3>UATS Portfolio &amp; Asset Management System</h3>
+                <p>
+                  Built a database-backed C++ application featuring asset registration, transaction tracking, and automated report generation.
+                </p>
+                <div class="tag-row">
+                  <span class="tag">C++</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">CRUD Architecture</span>
+                </div>
+              </div>
+
+              <div class="mini-window">
+                <div class="mini-row">
+                  <span>Modules</span>
+                  <span style="color: var(--text-primary);">4 Active</span>
+                </div>
+                <div class="mini-row">
+                  <span>Persistence</span>
+                  <span style="color: var(--text-primary);">MySQL Connector</span>
+                </div>
+                <div class="mini-row">
+                  <span>Output</span>
+                  <span style="color: var(--gold-soft);">Audit Reports</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Core Strengths Section -->
+      <section class="section">
+        <div class="container">
+          <div class="section-top" data-reveal>
+            <div>
+              <div class="kicker" style="margin-bottom: 8px;">Capabilities</div>
+              <h2 class="section-title">How I Approach Systems</h2>
+            </div>
+          </div>
+
+          <div class="grid-3">
+            <div class="sleek-card" data-reveal data-delay="1">
+              <div class="cap-num">01</div>
+              <h3 class="cap-title">Backend &amp; Data Logic</h3>
+              <p class="cap-desc">
+                Structuring normalized MySQL schemas and clean server-side routes in Python Flask that handle edge cases reliably.
+              </p>
+            </div>
+
+            <div class="sleek-card" data-reveal data-delay="2">
+              <div class="cap-num">02</div>
+              <h3 class="cap-title">Hardware-Level Awareness</h3>
+              <p class="cap-desc">
+                Hands-on experience with laptop diagnostics, thermal optimization, and component-level repairs informs how I write efficient software.
+              </p>
+            </div>
+
+            <div class="sleek-card" data-reveal data-delay="3">
+              <div class="cap-num">03</div>
+              <h3 class="cap-title">Calm Under Pressure</h3>
+              <p class="cap-desc">
+                Competing at national-level Youth armwrestling (bronze medalist) taught disciplined progression and composure during tight deadlines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-inner">
+        <span>© 2026 Muhammad Azim bin Ismail</span>
+        <span style="font-family: var(--font-mono); color: var(--gold);">Press Ctrl + K to navigate</span>
+      </div>
+    </footer>
+
+    <!-- Command Palette Modal -->
+    <div class="modal-backdrop" id="cmdModal" role="dialog" aria-modal="true" aria-label="Quick Navigation">
+      <div class="cmd-modal">
+        <div class="cmd-header">
+          <span>QUICK NAVIGATION</span>
+          <span>ESC</span>
+        </div>
+        <div class="cmd-list">
+          <a href="index.html">Home / Overview <span>index.html</span></a>
+          <a href="about.html">About &amp; Personal Qualities <span>about.html</span></a>
+          <a href="academics.html">Academic History &amp; Internship <span>academics.html</span></a>
+          <a href="projects.html">All Projects &amp; Works <span>projects.html</span></a>
+          <a href="project-ecotech.html">Case Study: EcoTech System <span>project-ecotech.html</span></a>
+          <a href="contact.html">Contact &amp; Resume <span>contact.html</span></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
